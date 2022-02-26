@@ -1,13 +1,13 @@
 import type { NextPage } from 'next'
 import { Layout } from '../layout'
 
-const Home: NextPage = () => {
+const Earn: NextPage = () => {
   return (
     <Layout>
-      <p>Hello World</p>
+      <p>Hello World earn</p>
       <p>aaa</p>
     </Layout>
   )
 }
 
-export default Home
+export default Earn
