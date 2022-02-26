@@ -21,7 +21,7 @@ export const Header = () => {
       shadow='base'
       px='16'
       color='black'
-      borderBottom="1px"
+      borderBottom='1px'
     >
       <MyLink href='/' fontWeight='bold' fontSize='30'>
         <span style={{ color: 'red' }}>S</span>
@@ -30,18 +30,17 @@ export const Header = () => {
         Finance
       </MyLink>
       <Spacer />
-
-      <Button variant='outline' leftIcon={<LinkIcon />}>
-        Connect Wallet
-      </Button>
-
       <MyLink href='/'>Home</MyLink>
       <MyLink href='/mypage'>MyPage</MyLink>
       <MyLink href='/dashboard'>Dashboard</MyLink>
       <MyLink href='/earn'>Earn</MyLink>
       <MyLink href='/gov'>Gov</MyLink>
-
-      <Button variant='ghost' colorScheme='black' border='1px'>
+      <Button
+        variant='outline'
+        border='1px'
+        leftIcon={<LinkIcon />}
+        color='black'
+      >
         Connect Wallet
       </Button>
     </chakra.header>
