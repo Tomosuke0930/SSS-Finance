@@ -1,13 +1,13 @@
 import type { NextPage } from 'next'
 import { Layout } from '../layout'
 
-const Home: NextPage = () => {
+const Gov: NextPage = () => {
   return (
     <Layout>
-      <p>Hello World</p>
+      <p>Hello World Gov</p>
       <p>aaa</p>
     </Layout>
   )
 }
 
-export default Home
+export default Gov

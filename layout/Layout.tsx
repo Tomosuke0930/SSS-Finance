@@ -1,6 +1,6 @@
 import { Box, Container, ContainerProps } from '@chakra-ui/react'
 import { ReactNode, VFC } from 'react'
-// import { Header } from './Header'
+import { Header } from './Header'
 
 type Props = ContainerProps & {
   children: ReactNode
@@ -9,7 +9,7 @@ type Props = ContainerProps & {
 export const Layout: VFC<Props> = ({ children, maxW = '6xl' }) => {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
 
       <Container maxW={maxW}>
         {children}
