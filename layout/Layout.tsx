@@ -11,7 +11,7 @@ export const Layout: VFC<Props> = ({ children, maxW = '6xl' }) => {
     <>
       <Header />
 
-      <Container maxW={maxW} bg='white'>
+      <Container maxW={maxW} bg='white' px='12'>
         {children}
         <Box h='16' />
       </Container>
