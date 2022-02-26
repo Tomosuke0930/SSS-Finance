@@ -21,9 +21,13 @@ export const Header = () => {
       shadow='base'
       px='16'
       color='black'
+      borderBottom="1px"
     >
       <MyLink href='/' fontWeight='bold' fontSize='30'>
-        SSSFinance
+        <span style={{ color: 'red' }}>S</span>
+        <span style={{ color: 'blue' }}>S</span>
+        <span style={{ color: 'green' }}>S</span>
+        Finance
       </MyLink>
       <Spacer />
 
