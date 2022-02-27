@@ -20,9 +20,17 @@ const Home: NextPage = () => {
       <Box py='12' px='12' bg='gray.100' borderRadius='md' boxShadow='2xl'>
         <Flex>
           <Box width='33%'>
-            <Box color='black' fontWeight='bold' fontSize='48'>
-              <h1>SSSFinance</h1>
-            </Box>
+            <Flex>
+              <Image
+                boxSize='16'
+                src='https://stat.ameba.jp/user_images/20171209/00/tsukasatetsuo/26/5c/p/o0200022014087197182.png?caw=800'
+                alt='ss'
+              />
+              <Box color='black' fontWeight='bold' fontSize='48' my='auto'>
+                <h1>SSFinance</h1>
+              </Box>
+            </Flex>
+
             <Box color='gray.900'>
               <p>
                 <span
@@ -43,18 +51,6 @@ const Home: NextPage = () => {
                   S
                 </span>
                 tableReward
-              </p>
-              <p>
-                <span
-                  style={{
-                    color: 'green',
-                    fontWeight: 'bold',
-                    fontSize: '30px',
-                  }}
-                >
-                  S
-                </span>
-                ustainableEcosystem
               </p>
             </Box>
           </Box>
