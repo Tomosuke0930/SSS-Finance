@@ -21,13 +21,8 @@ const Home: NextPage = () => {
         <Flex>
           <Box width='33%'>
             <Flex>
-              <Image
-                boxSize='16'
-                src='https://stat.ameba.jp/user_images/20171209/00/tsukasatetsuo/26/5c/p/o0200022014087197182.png?caw=800'
-                alt='ss'
-              />
               <Box color='black' fontWeight='bold' fontSize='48' my='auto'>
-                <h1>SSFinance</h1>
+                <h1>SSSFinance</h1>
               </Box>
             </Flex>
 
@@ -44,6 +39,18 @@ const Home: NextPage = () => {
                 <span
                   style={{
                     color: 'blue',
+                    fontWeight: 'bold',
+                    fontSize: '30px',
+                  }}
+                >
+                  S
+                </span>
+                tableReward
+              </p>
+              <p>
+                <span
+                  style={{
+                    color: 'green',
                     fontWeight: 'bold',
                     fontSize: '30px',
                   }}

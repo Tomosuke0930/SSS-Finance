@@ -27,14 +27,10 @@ export const Header = () => {
     >
       <MyLink href='/' fontWeight='bold' fontSize='30'>
         <Flex>
-          <Image
-            boxSize='12'
-            src='https://stat.ameba.jp/user_images/20171209/00/tsukasatetsuo/26/5c/p/o0200022014087197182.png?caw=800'
-            alt='ss'
-          />
           <Flex my='auto'>
             <Box color='red'>S</Box>
             <Box color='blue'>S</Box>
+            <Box color='green'>S</Box>
             <Box> Finance</Box>
           </Flex>
         </Flex>
