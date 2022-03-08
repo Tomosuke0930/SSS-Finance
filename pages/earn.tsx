@@ -1,11 +1,15 @@
+import { Box } from '@chakra-ui/react'
 import type { NextPage } from 'next'
+import { EarnTab } from '../components/EarnTab'
 import { Layout } from '../layout'
 
 const Earn: NextPage = () => {
   return (
     <Layout>
-      <p>Hello World earn</p>
-      <p>aaa</p>
+      <Box color='black' fontWeight='bold' fontSize='48'>
+        <h1>Earn</h1>
+      </Box>
+      <EarnTab />
     </Layout>
   )
 }

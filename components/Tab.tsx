@@ -12,7 +12,7 @@ import { DetailPlan } from './DetailPlan'
 export const TabComponent = () => {
   const colors = useColorModeValue(
     ['red.300', 'blue.300', 'green.300'],
-    ['red.300', 'blue.300', 'green.300']
+    ['red.500', 'blue.500', 'green.500']
   )
   const [tabIndex, setTabIndex] = React.useState(0)
   const bg = colors[tabIndex]

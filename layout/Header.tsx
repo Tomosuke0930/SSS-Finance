@@ -7,6 +7,8 @@ import {
   Image,
   ButtonGroup,
   Text,
+  Flex,
+  Box,
 } from '@chakra-ui/react'
 import { MyLink } from '../components/MyLink'
 
@@ -24,10 +26,14 @@ export const Header = () => {
       borderBottom='1px'
     >
       <MyLink href='/' fontWeight='bold' fontSize='30'>
-        <span style={{ color: 'red' }}>S</span>
-        <span style={{ color: 'blue' }}>S</span>
-        <span style={{ color: 'green' }}>S</span>
-        Finance
+        <Flex>
+          <Flex my='auto'>
+            <Box color='red'>S</Box>
+            <Box color='blue'>S</Box>
+            <Box color='green'>S</Box>
+            <Box> Finance</Box>
+          </Flex>
+        </Flex>
       </MyLink>
       <Spacer />
       <MyLink href='/'>Home</MyLink>

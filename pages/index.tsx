@@ -20,9 +20,12 @@ const Home: NextPage = () => {
       <Box py='12' px='12' bg='gray.100' borderRadius='md' boxShadow='2xl'>
         <Flex>
           <Box width='33%'>
-            <Box color='black' fontWeight='bold' fontSize='48'>
-              <h1>SSSFinance</h1>
-            </Box>
+            <Flex>
+              <Box color='black' fontWeight='bold' fontSize='48' my='auto'>
+                <h1>SSSFinance</h1>
+              </Box>
+            </Flex>
+
             <Box color='gray.900'>
               <p>
                 <span
@@ -54,7 +57,7 @@ const Home: NextPage = () => {
                 >
                   S
                 </span>
-                ustainableEcosystem
+                tableReward
               </p>
             </Box>
           </Box>

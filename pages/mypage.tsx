@@ -17,7 +17,7 @@ const MyPage: NextPage = () => {
       <Box color='black' fontWeight='bold' fontSize='48'>
         <h1>MyPage</h1>
       </Box>
-      <Grid templateColumns='repeat(7, 1fr)' gap={6} h='600'>
+      <Grid templateColumns='repeat(7, 1fr)' gap={6} h='600' pt="12">
         <GridItem colSpan={4}>
           <Box
             py='12'
