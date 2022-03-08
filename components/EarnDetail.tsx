@@ -8,6 +8,7 @@ import {
   Image,
   Spacer,
 } from '@chakra-ui/react'
+import { EarnInterestTabs } from './EarnInterestTabs'
 export const EarnPlanDetail = () => {
   return (
     <Grid templateColumns='repeat(7, 2fr)' gap={4} h='600' pt='6'>
@@ -27,7 +28,7 @@ export const EarnPlanDetail = () => {
             <Box fontSize='lg' fontWeight='bold'>
               123.1
             </Box>
-            <Box fontSize='md' pl='4'>
+            <Box fontSize='md' pl='4' my='auto'>
               USDC
             </Box>
           </Flex>
@@ -42,6 +43,7 @@ export const EarnPlanDetail = () => {
           </Flex>
         </Box>
       </GridItem>
+
       <GridItem colSpan={3} rowSpan={2}>
         <Box
           py='12'
@@ -68,12 +70,41 @@ export const EarnPlanDetail = () => {
               4%
             </Box>
           </Box>
-          <Button w='100%' bg='green' mt='8'>
+          {/* <Button w='100%' bg='green' mt='8'>
             Claim
-          </Button>
+          </Button> */}
+          <Box pt='20'>
+            <Image
+              src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDQokJplh5baeaEkPvNnwBp0Vxubq8In0jA&usqp=CAU'
+              alt='graph'
+            />
+          </Box>
         </Box>
       </GridItem>
-      <GridItem colSpan={3}></GridItem>
+
+      <GridItem colSpan={4}>
+        <Box
+          py='12'
+          px='12'
+          bg='gray.100'
+          borderRadius='lg'
+          boxShadow='2xl'
+          h='full'
+        >
+          <Box color='black' fontSize='sm'>
+            EXPECTED INTEREST
+          </Box>
+          {/* <Flex color='black' mt='4'>
+            <Box fontSize='lg' fontWeight='bold'>
+              0
+            </Box>
+            <Box fontSize='md' pl='4' my='auto'>
+              USDC
+            </Box>
+          </Flex> */}
+          <EarnInterestTabs />
+        </Box>
+      </GridItem>
     </Grid>
   )
 }
