@@ -12,7 +12,7 @@ import { EarnPlanDetail } from './EarnDetail'
 
 export const EarnTab = () => {
   const colors = useColorModeValue(
-    ['pink', 'pink', 'pink'],
+    ['red.500', 'blue.500', 'green.500'],
     ['red.500', 'blue.500', 'green.500']
   )
   const [tabIndex, setTabIndex] = React.useState(0)
@@ -20,7 +20,7 @@ export const EarnTab = () => {
   return (
     <Box pt='12'>
       <Tabs onChange={(index) => setTabIndex(index)} borderRadius='md'>
-        <TabList bg={bg} >
+        <TabList bg={bg}>
           <Tab>4%</Tab>
           <Tab>8%</Tab>
           <Tab>12%</Tab>

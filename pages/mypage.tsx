@@ -9,6 +9,7 @@ import {
   Spacer,
 } from '@chakra-ui/react'
 import type { NextPage } from 'next'
+import { MypageTabs } from '../components/MypageTabs'
 import { Layout } from '../layout'
 
 const MyPage: NextPage = () => {
@@ -17,10 +18,10 @@ const MyPage: NextPage = () => {
       <Box color='black' fontWeight='bold' fontSize='48'>
         <h1>MyPage</h1>
       </Box>
-      <Grid templateColumns='repeat(7, 1fr)' gap={6} h='600' pt="12">
+      <Grid templateColumns='repeat(7, 1fr)' gap={6} h='520' pt='12'>
         <GridItem colSpan={4}>
           <Box
-            py='12'
+            pt='12'
             px='12'
             bg='gray.100'
             borderRadius='lg'
@@ -71,6 +72,7 @@ const MyPage: NextPage = () => {
         </GridItem>
         <GridItem colSpan={3}></GridItem>
       </Grid>
+      <MypageTabs />
     </Layout>
   )
 }
